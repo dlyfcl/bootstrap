@@ -1,0 +1,95 @@
+html{
+    font-size: 100px;
+}
+#nav{
+    background: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+}
+#nav .navbar-header a,#nav #navbar li a{
+    color: #777777;
+}
+#nav #navbar .li1{
+    float: right;
+}
+#nav #navbar li:hover{
+    background: #e7e7e7;
+}
+#nav #navbar li:hover a{
+    color: #555555;
+}
+#search ul li{
+    list-style-type: none;
+}
+#search .text-right .add,#search .text-right .search{
+    background: #ffffff;
+    color: black;
+    border: .01rem solid #e7e7e7;
+    border-radius: 0;
+    padding: .08rem .4rem;
+}
+#search .text-right .manage{
+    background: #337ab7;
+    color: white;
+    border: .01rem solid #e7e7e7;
+    border-radius: 0;
+    padding: .08rem .4rem;
+}
+#search .text-right .btn{
+    border: .01rem solid #e7e7e7;
+}
+#search ul li a{
+    text-decoration: none;
+}
+#search .managepage{
+    padding-left: .5rem;
+}
+#search .managepage table tbody{
+    font-size: .12rem;
+}
+#usersearch{
+    padding-top: .1rem;
+}
+#usersearch .sp1{
+    font-weight: bold;
+}
+#usersearch{
+    border: .01rem solid #e7e7e7;
+    padding: .06rem .06rem .1rem .06rem;
+}
+#sub{
+    margin: .1rem .03rem;
+    background: white;
+    color: black;
+    border: .01rem solid #e7e7e7;
+    border-radius: 0;
+    outline: none;
+    padding: .06rem .3rem;
+}
+footer{
+    padding: .3rem 0 0.3rem 0;
+}
+footer p{
+    font-size: .12rem;
+    color: #8c3333;
+}
+
+
+/*这是内容*/
+#content .text-right .btn{
+    border: .01rem solid #e7e7e7;
+}
+#txtcontent{
+    height: 3rem;
+}
+#mark form text,#mark form .suu{
+    outline: none;
+}
+#mark form .suu{
+    border: .01rem solid #e7e7e7;
+    background: white;
+    color: black;
+    margin-left: .2rem;
+}
+#mark .al1{
+    margin-left: .1rem;
+}

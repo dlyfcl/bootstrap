@@ -1,0 +1,149 @@
+html{
+    font-size: 100px;
+}
+#nav{
+    background: white;
+}
+#nav .navbar-header a{
+    color: lightgreen;
+    font-weight: bold;
+    font-size: .2rem;
+}
+#nav ul{
+    float: right;
+}
+#nav ul li a{
+    color: black;
+}
+#nav ul li:hover a{
+    font-weight: 700;
+    background: white;
+}
+#home{
+    padding:.4rem 0 .9rem 0 ;
+    text-align: center;
+    background: #232b40;
+}
+#home h2{
+    font-size: .35rem;
+    color: #ffffff;
+}
+#home p{
+    font-size: .10rem;
+    padding: 0.01rem 0 0.01rem 0;
+    color: #ffffff;
+}
+#bbs{
+    padding: .8rem 0;
+    text-align: center;
+}
+#bbs a{
+    text-decoration: none;
+    color: black;
+}
+#bbs .container .row .col-sm-4{
+    box-shadow: .1rem .1rem .15rem #ccc;
+}
+#bbs h4{
+    font-weight: bold;
+}
+#html5{
+    background: lightgray;
+}
+#html5,#bootstrap{
+    padding: .8rem 0;
+}
+#bootstrap h2,#html5 h2{
+    font-weight: bold;
+}
+#html5 p,#bootstrap p{
+    padding: 0.01rem 0 0.01rem 0;
+}
+#course{
+    background: lightgray;
+    padding: .8rem 0;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    padding-bottom: .6rem;
+}
+#course .col-sm-3{
+    margin-bottom: .2rem;
+}
+.course{
+    background: #ffffff;
+}
+#course .btn{
+    background: #ffffff;
+    border: .01rem solid #40D2B1;
+    border-radius: 0;
+    color: #40D2B1;
+    padding: .08rem .4rem;
+    margin-top: .2rem;
+    margin-bottom: .3rem;
+}
+#course .btn:hover{
+    background: #40D2B1;
+    color: #fff;
+}
+#app{
+    padding: .8rem 0;
+}
+#app h2{
+    font-weight: bold;
+    padding-bottom: .3rem;
+}
+#app .btn{
+    margin: .10rem .03rem;
+    background: #40D2B1;
+    border-color:  #40D2B1;
+    border-radius: 0;
+    padding: .06rem .3rem;
+}
+#app .btn:hover{
+    background: rgb(44,142,120);
+}
+#tel{
+    background: url("images/contact-bg.png");
+}
+#tel .lvjing{
+    background:#000;
+    width:100%;
+    height:100%;
+    padding:.05rem;
+    filter:alpha(Opacity=60);
+    opacity:0.6;
+    opacity: 0.6
+}
+#tel h2{
+    margin-top: .90rem;
+}
+#tel h2,#tel p{
+    color: white;
+}
+#tel #sub{
+    margin: .1rem .03rem;
+    color: white;
+    background: #40D2B1;
+    border-color:  #40D2B1;
+    border-radius: 0;
+    padding: .06rem .3rem;
+}
+#tel form{
+    margin-top: .9rem;
+}
+#tel form .form-control{
+    background: white;
+}
+#last .lvjing{
+    width: 100%;
+    height: 100%;
+    background: #333333;
+}
+#last .lvjing p{
+    font-size: .14rem;
+    color: #ffffff;
+    line-height: .9rem;
+    text-align: center;
+}

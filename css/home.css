@@ -1,0 +1,118 @@
+html{
+    font-size: 100px;
+}
+#nav{
+    background: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+}
+#nav .navbar-header a,#nav #navbar li a{
+    color: #777777;
+}
+#nav #navbar .li1{
+    float: right;
+}
+#nav #navbar li:hover,#nav #navbar li.li2{
+    background: #e7e7e7;
+}
+#nav #navbar li:hover a,#nav #navbar li.li2 a{
+    color: #555555;
+}
+#data .panel-heading{
+    background: #f5f5f5;
+}
+#data .panel-heading .panel-title{
+    color: #333333;
+}
+#data .td1{
+    font-weight: bold;
+}
+#data .hot span{
+    float: right;
+    font-size: .14rem;
+}
+#data .hot a{
+    font-size: .14rem;
+    padding: 0.05rem 0 0.05rem 0;
+    border-bottom: 1px solid #e7e7e7;
+    text-decoration: none;
+}
+#data .hot .panel-title{
+    border: 1px solid #e7e7e7;
+}
+#visit .panel-heading{
+    background: #f5f5f5;
+}
+#visit .panel-heading .panel-title{
+    color: #333333;
+}
+#visit #memory .progress-bar{
+    width: 40%;
+}
+#visit #usedata .progress-bar{
+    width: 20%;
+}
+#visit #disk .progress-bar{
+    width: 60%;
+}
+#visit #cpu .progress-bar{
+    width: 80%;
+}
+#team{
+    border: 1px solid #e7e7e7;
+}
+#team .write{
+    padding-top: .2rem;
+}
+#team .write .left,#team .write .right{
+    padding-bottom: .3rem;
+}
+#team .write .left img{
+    float: left;
+    width: .6rem;
+}
+#team .write .right img{
+    float: right;
+    width: .6rem;
+}
+#team .write .left,#team .write .right p{
+    font-size: .12rem;
+    color: #333333;
+}
+#team .write .right,#team .write .left{
+    background: #f5f5f5;
+    border: .01rem solid #e7e7e7;
+}
+#team .read #message{
+    outline: none;
+    height: 1.14rem;
+    border-radius: 0.05rem;
+}
+#team #sub{
+    margin-top: .10rem;
+    background: white;
+    padding: .05rem .1rem .05rem .1rem;
+    border: 1px solid #e7e7e7;
+}
+#team .read .list-group .list-group-item{
+    color: #333333;
+    font-size: .1rem;
+}
+#team .panel{
+    margin-top: 0.1rem;
+}
+#team .panel-heading{
+    background: #f5f5f5;
+    border: 1px solid #e7e7e7;
+}
+#team .panel-heading .panel-title{
+    font-size: .12rem;
+    color: #333333;
+}
+footer{
+    padding: .3rem 0 0.3rem 0;
+}
+footer p{
+    font-size: .12rem;
+    color: #8c3333;
+}
+
